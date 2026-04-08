@@ -1,6 +1,10 @@
 Main.class
-shape/Point.class
+shape/Square.class
 shape/Circle.class
+shape/Rectangle.class
 shape/Polygone.class
+shape/Point.class
+shape/Cercle.class
+shape/Curve.class
 shape/Line.class
 shape/Shape.class

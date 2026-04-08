@@ -1,5 +1,9 @@
+shape/SquareTest.class
+shape/PolygoneTest.class
+shape/CercleTest.class
+shape/PointTest.class
+shape/CurveTest.class
 shape/LineTest.class
 shape/CircleTest.class
-shape/PolygoneTest.class
-shape/PointTest.class
+shape/RectangleTest.class
 shape/ShapeTest.class

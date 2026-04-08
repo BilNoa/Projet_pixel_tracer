@@ -1,6 +1,10 @@
 /home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/Main.java
+/home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Cercle.java
 /home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Circle.java
+/home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Curve.java
 /home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Line.java
 /home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Point.java
 /home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Polygone.java
+/home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Rectangle.java
 /home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Shape.java
+/home/etudiant/22302136/Projet_pixel_tracer/pixel_tracer_java/src/shape/Square.java
