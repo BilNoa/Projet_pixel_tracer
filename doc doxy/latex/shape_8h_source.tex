@@ -1,0 +1,119 @@
+\doxysection{shape.\+h}
+\hypertarget{shape_8h_source}{}\label{shape_8h_source}\index{src/shape.h@{src/shape.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_SHAPE\_H\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#\ \ define\ \_SHAPE\_H\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ shape\_type\ \{\ POINT,\ LINE,\ SQUAR,\ RECTANGLE,\ CERCLE,}
+\DoxyCodeLine{00005\ \ \ \ \ POLYGON,\ CURVE}
+\DoxyCodeLine{00006\ \}\ Shape\_type;}
+\DoxyCodeLine{00007\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ color\ \{\ BLACK,\ WIGHT,\ RED,\ GREEN\ \}\ Color;}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structpoint}{point}}\ \{}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{int}\ pos\_x;}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{int}\ pos\_y;}
+\DoxyCodeLine{00012\ \};}
+\DoxyCodeLine{00013\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structpoint}{point}}\ \mbox{\hyperlink{structpoint}{Point}};}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structline}{line}}\ \{}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *p1;}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *p2;}
+\DoxyCodeLine{00018\ \};}
+\DoxyCodeLine{00019\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structline}{line}}\ \mbox{\hyperlink{structline}{Line}};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structsquar}{squar}}\ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *p1;}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ length;}
+\DoxyCodeLine{00024\ \};}
+\DoxyCodeLine{00025\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structsquar}{squar}}\ \mbox{\hyperlink{structsquar}{Squar}};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structrectangle}{rectangle}}\ \{}
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *p1;}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{int}\ width;}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{int}\ height;}
+\DoxyCodeLine{00032\ \};}
+\DoxyCodeLine{00033\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structrectangle}{rectangle}}\ \mbox{\hyperlink{structrectangle}{Rectangle}};}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structcercle}{cercle}}\ \{}
+\DoxyCodeLine{00036\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *center;}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{int}\ radus;}
+\DoxyCodeLine{00038\ \};}
+\DoxyCodeLine{00039\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structcercle}{cercle}}\ \mbox{\hyperlink{structcercle}{Cercle}};}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structpolygon}{polygon}}\ \{}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{int}\ n;}
+\DoxyCodeLine{00044\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ **points;}
+\DoxyCodeLine{00045\ \};}
+\DoxyCodeLine{00046\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structpolygon}{polygon}}\ \mbox{\hyperlink{structpolygon}{Polygon}};}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structcurve}{curve}}\ \{}
+\DoxyCodeLine{00050\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *p1;}
+\DoxyCodeLine{00051\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *p2;}
+\DoxyCodeLine{00052\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *p3;}
+\DoxyCodeLine{00053\ \ \ \ \ \mbox{\hyperlink{structpoint}{Point}}\ *p4;}
+\DoxyCodeLine{00054\ \};}
+\DoxyCodeLine{00055\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structcurve}{curve}}\ \mbox{\hyperlink{structcurve}{Curve}};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structshape}{shape}}\ \{}
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{long}\ \textcolor{keywordtype}{long}\ \textcolor{keywordtype}{int}\ id;}
+\DoxyCodeLine{00061\ \ \ \ \ Shape\_type\ shape\_type;}
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keywordtype}{void}\ *ptrShape;}
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}\ fill;}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{float}\ thickness;}
+\DoxyCodeLine{00065\ \ \ \ \ Color\ color;}
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keywordtype}{double}\ rotation;}
+\DoxyCodeLine{00067\ \};}
+\DoxyCodeLine{00068\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structshape}{shape}}\ \mbox{\hyperlink{structshape}{Shape}};}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00071\ \mbox{\hyperlink{structpoint}{Point}}\ *create\_point(\textcolor{keywordtype}{int}\ px,\ \textcolor{keywordtype}{int}\ py);}
+\DoxyCodeLine{00072\ \textcolor{keywordtype}{void}\ delete\_point(\mbox{\hyperlink{structpoint}{Point}}\ *\ \mbox{\hyperlink{structpoint}{point}});}
+\DoxyCodeLine{00073\ \mbox{\hyperlink{structline}{Line}}\ *create\_line(\mbox{\hyperlink{structpoint}{Point}}\ *\ p1,\ \mbox{\hyperlink{structpoint}{Point}}\ *\ p2);}
+\DoxyCodeLine{00074\ \textcolor{keywordtype}{void}\ delete\_line(\mbox{\hyperlink{structline}{Line}}\ *\ \mbox{\hyperlink{structline}{line}});}
+\DoxyCodeLine{00075\ \mbox{\hyperlink{structsquar}{Squar}}\ *create\_squar(\mbox{\hyperlink{structpoint}{Point}}\ *\ \mbox{\hyperlink{structpoint}{point}},\ \textcolor{keywordtype}{int}\ legth);}
+\DoxyCodeLine{00076\ \textcolor{keywordtype}{void}\ delete\_squar(\mbox{\hyperlink{structsquar}{Squar}}\ *\ \mbox{\hyperlink{structsquar}{squar}});}
+\DoxyCodeLine{00077\ \mbox{\hyperlink{structrectangle}{Rectangle}}\ *create\_rectangle(\mbox{\hyperlink{structpoint}{Point}}\ *\ \mbox{\hyperlink{structpoint}{point}},\ \textcolor{keywordtype}{int}\ width,\ \textcolor{keywordtype}{int}\ height);}
+\DoxyCodeLine{00078\ \textcolor{keywordtype}{void}\ delete\_rectangle(\mbox{\hyperlink{structrectangle}{Rectangle}}\ *\ \mbox{\hyperlink{structrectangle}{rectangle}});}
+\DoxyCodeLine{00079\ \mbox{\hyperlink{structcercle}{Cercle}}\ *create\_cercle(\mbox{\hyperlink{structpoint}{Point}}\ *\ center,\ \textcolor{keywordtype}{int}\ radus);}
+\DoxyCodeLine{00080\ \textcolor{keywordtype}{void}\ delete\_cercle(\mbox{\hyperlink{structcercle}{Cercle}}\ *\ \mbox{\hyperlink{structcercle}{cercle}});}
+\DoxyCodeLine{00081\ \mbox{\hyperlink{structpolygon}{Polygon}}\ *create\_polygon(\textcolor{keywordtype}{int}\ n);}
+\DoxyCodeLine{00082\ \textcolor{keywordtype}{void}\ delete\_polygon(\mbox{\hyperlink{structpolygon}{Polygon}}\ *\ \mbox{\hyperlink{structpolygon}{polygon}});}
+\DoxyCodeLine{00083\ \mbox{\hyperlink{structcurve}{Curve}}\ *create\_curve(\mbox{\hyperlink{structpoint}{Point}}\ *\ p1,\ \mbox{\hyperlink{structpoint}{Point}}\ *\ p2,\ \mbox{\hyperlink{structpoint}{Point}}\ *\ p3,\ \mbox{\hyperlink{structpoint}{Point}}\ *\ p4);}
+\DoxyCodeLine{00084\ \textcolor{keywordtype}{void}\ delete\_curve(\mbox{\hyperlink{structcurve}{Curve}}\ *\ \mbox{\hyperlink{structcurve}{curve}});}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \mbox{\hyperlink{structshape}{Shape}}\ *create\_empty\_shape(Shape\_type\ shape\_type);}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00088\ \textcolor{keywordtype}{void}\ sprint\_point(\mbox{\hyperlink{structpoint}{Point}}\ *\ p,\ \textcolor{keywordtype}{char}\ *str);}
+\DoxyCodeLine{00089\ \textcolor{keywordtype}{void}\ sprint\_line(\mbox{\hyperlink{structline}{Line}}\ *\ \mbox{\hyperlink{structline}{line}},\ \textcolor{keywordtype}{char}\ *str);}
+\DoxyCodeLine{00090\ \textcolor{keywordtype}{void}\ sprint\_squar(\mbox{\hyperlink{structsquar}{Squar}}\ *\ \mbox{\hyperlink{structsquar}{squar}},\ \textcolor{keywordtype}{char}\ *str);}
+\DoxyCodeLine{00091\ \textcolor{keywordtype}{void}\ sprint\_rectangle(\mbox{\hyperlink{structrectangle}{Rectangle}}\ *\ \mbox{\hyperlink{structrectangle}{rectangle}},\ \textcolor{keywordtype}{char}\ *str);}
+\DoxyCodeLine{00092\ \textcolor{keywordtype}{void}\ sprint\_cercle(\mbox{\hyperlink{structcercle}{Cercle}}\ *\ \mbox{\hyperlink{structcercle}{cercle}},\ \textcolor{keywordtype}{char}\ *str);}
+\DoxyCodeLine{00093\ \textcolor{keywordtype}{void}\ sprint\_polygon(\mbox{\hyperlink{structpolygon}{Polygon}}\ *\ \mbox{\hyperlink{structpolygon}{polygon}},\ \textcolor{keywordtype}{char}\ *str);}
+\DoxyCodeLine{00094\ \textcolor{keywordtype}{void}\ sprint\_curve(\mbox{\hyperlink{structcurve}{Curve}}\ *\ \mbox{\hyperlink{structcurve}{curve}},\ \textcolor{keywordtype}{char}\ *str);}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00100\ \mbox{\hyperlink{structshape}{Shape}}\ *create\_point\_shape(\textcolor{keywordtype}{int}\ px,\ \textcolor{keywordtype}{int}\ py);}
+\DoxyCodeLine{00101\ \mbox{\hyperlink{structshape}{Shape}}\ *create\_line\_shape(\textcolor{keywordtype}{int}\ px1,\ \textcolor{keywordtype}{int}\ py1,\ \textcolor{keywordtype}{int}\ px2,\ \textcolor{keywordtype}{int}\ py2);}
+\DoxyCodeLine{00102\ \mbox{\hyperlink{structshape}{Shape}}\ *create\_square\_shape(\textcolor{keywordtype}{int}\ px,\ \textcolor{keywordtype}{int}\ py,\ \textcolor{keywordtype}{int}\ length);}
+\DoxyCodeLine{00103\ \mbox{\hyperlink{structshape}{Shape}}\ *create\_rectangle\_shape(\textcolor{keywordtype}{int}\ px,\ \textcolor{keywordtype}{int}\ py,\ \textcolor{keywordtype}{int}\ width,\ \textcolor{keywordtype}{int}\ height);}
+\DoxyCodeLine{00104\ \mbox{\hyperlink{structshape}{Shape}}\ *create\_cercle\_shape(\textcolor{keywordtype}{int}\ px,\ \textcolor{keywordtype}{int}\ py,\ \textcolor{keywordtype}{int}\ radus);}
+\DoxyCodeLine{00105\ \textcolor{comment}{//Shape\ *create\_polygon\_shape(int\ n,\ ...);}}
+\DoxyCodeLine{00106\ \mbox{\hyperlink{structshape}{Shape}}\ *create\_polygon\_shape(\textcolor{keywordtype}{int}\ n,\ \textcolor{keywordtype}{int}\ *tab);}
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00108\ \mbox{\hyperlink{structshape}{Shape}}\ *create\_curve\_shape(\textcolor{keywordtype}{int}\ px1,\ \textcolor{keywordtype}{int}\ py1,\ \textcolor{keywordtype}{int}\ px2,\ \textcolor{keywordtype}{int}\ py2,\ \textcolor{keywordtype}{int}\ px3,}
+\DoxyCodeLine{00109\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ py3,\ \textcolor{keywordtype}{int}\ px4,\ \textcolor{keywordtype}{int}\ py4);}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00111\ \textcolor{keywordtype}{void}\ delete\_shape(\mbox{\hyperlink{structshape}{Shape}}\ *\ \mbox{\hyperlink{structshape}{shape}});}
+\DoxyCodeLine{00112\ \textcolor{keywordtype}{void}\ sprint\_shape(\mbox{\hyperlink{structshape}{Shape}}\ *\ \mbox{\hyperlink{structshape}{shape}},\ \textcolor{keywordtype}{char}\ *str);}
+\DoxyCodeLine{00113\ }
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00115\ }
+\DoxyCodeLine{00116\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

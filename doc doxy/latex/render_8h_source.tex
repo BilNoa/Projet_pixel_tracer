@@ -1,0 +1,30 @@
+\doxysection{render.\+h}
+\hypertarget{render_8h_source}{}\label{render_8h_source}\index{src/render.h@{src/render.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}layers.h"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}area.h"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}pixel.h"{}}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ \_RENDER\_H\_}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#\ \ define\ \_RENDER\_H\_}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ \{\ EMPTY\_CELL,\ BLACK\_CELL,\ RED\_CELL\ \}\ color\_cell;}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#\ \ define\ EMPTY\_CHAR\ '.'}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#\ \ define\ FULL\_CHAR\ \ '\#'}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keywordtype}{void}\ render\_area(\mbox{\hyperlink{structarea}{Area}}\ *\ \mbox{\hyperlink{structarea}{area}});}
+\DoxyCodeLine{00016\ \textcolor{keywordtype}{void}\ draw\_area(\mbox{\hyperlink{structarea}{Area}}\ *\ \mbox{\hyperlink{structarea}{area}});}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{keywordtype}{void}\ clear\_screen();}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keywordtype}{void}\ draw\_layer\_shapes(\mbox{\hyperlink{structarea}{Area}}\ *\ \mbox{\hyperlink{structarea}{area}},\ \mbox{\hyperlink{structlayer}{Layer}}\ *\ \mbox{\hyperlink{structlayer}{layer}});}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ \textcolor{keywordtype}{void}\ draw\_all\_layers(\mbox{\hyperlink{structarea}{Area}}\ *\ \mbox{\hyperlink{structarea}{area}});}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

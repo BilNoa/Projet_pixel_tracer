@@ -1,0 +1,56 @@
+\doxysection{layers.\+h}
+\hypertarget{layers_8h_source}{}\label{layers_8h_source}\index{src/layers.h@{src/layers.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ "{}list.h"{}}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}shape.h"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <string.h>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ \_LAYERS\_H\_}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#\ \ define\ \_LAYERS\_H\_}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#\ \ define\ LAYER\_VISIBLE\ 1}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#\ \ define\ LAYER\_UNVISIBLE\ 0}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structlayer}{layer}}\ \{}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ id;}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{char}\ name[255];}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}\ visible;}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{structlist__}{list}}\ shapes;}
+\DoxyCodeLine{00018\ \};}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structlayer}{layer}}\ \mbox{\hyperlink{structlayer}{Layer}};}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{typedef}\ \mbox{\hyperlink{structlist__}{list}}\ \mbox{\hyperlink{structlist__}{LayersList}};}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \mbox{\hyperlink{structlayer}{Layer}}\ *create\_layer(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ \textcolor{keywordtype}{char}\ *name);}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keywordtype}{void}\ delete\_layer(\mbox{\hyperlink{structlayer}{Layer}}\ *\ \mbox{\hyperlink{structlayer}{layer}});}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \mbox{\hyperlink{structlist__}{LayersList}}\ *create\_layers\_list();}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{keywordtype}{void}\ delete\_layers\_list(\mbox{\hyperlink{structlist__}{LayersList}}\ *\ layer\_list);}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \textcolor{keywordtype}{void}\ add\_layer\_to\_list(\mbox{\hyperlink{structlist__}{LayersList}}\ *\ layer\_list,\ \mbox{\hyperlink{structlayer}{Layer}}\ *\ \mbox{\hyperlink{structlayer}{layer}});}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{void}\ remove\_layer\_from\_list(\mbox{\hyperlink{structlist__}{LayersList}}\ *\ layer\_list,\ \mbox{\hyperlink{structlayer}{Layer}}\ *\ \mbox{\hyperlink{structlayer}{layer}});}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{keywordtype}{void}\ set\_layer\_visible(\mbox{\hyperlink{structlayer}{Layer}}\ *\ \mbox{\hyperlink{structlayer}{layer}});}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{keywordtype}{void}\ set\_layer\_unvisible(\mbox{\hyperlink{structlayer}{Layer}}\ *\ \mbox{\hyperlink{structlayer}{layer}});}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{void}\ add\_shape\_to\_layer(\mbox{\hyperlink{structlayer}{Layer}}\ *\ \mbox{\hyperlink{structlayer}{layer}},\ \mbox{\hyperlink{structshape}{Shape}}\ *\ \mbox{\hyperlink{structshape}{shape}});}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \textcolor{keywordtype}{void}\ remove\_shape\_to\_from(\mbox{\hyperlink{structlayer}{Layer}}\ *\ \mbox{\hyperlink{structlayer}{layer}},\ \mbox{\hyperlink{structshape}{Shape}}\ *\ \mbox{\hyperlink{structshape}{shape}});}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

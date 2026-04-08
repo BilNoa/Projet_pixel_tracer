@@ -1,0 +1,36 @@
+\doxysection{pixel\+\_\+tracer.\+h}
+\hypertarget{pixel__tracer_8h_source}{}\label{pixel__tracer_8h_source}\index{src/pixel\_tracer.h@{src/pixel\_tracer.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_PIXEL\_TRACER\_H\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#\ \ define\ \_PIXEL\_TRACER\_H\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#\ \ include\ "{}list.h"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#\ \ include\ "{}id.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#\ \ include\ "{}area.h"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#\ \ include\ "{}layers.h"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#\ \ include\ "{}shape.h"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#\ \ include\ "{}pixel.h"{}}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#\ \ include\ "{}render.h"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structpixel__tracer}{pixel\_tracer}}\ \{}
+\DoxyCodeLine{00015\ \ \ \ \ \mbox{\hyperlink{structlist__}{AreaList}}\ *list\_area;}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{structarea}{Area}}\ *current\_area;}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{structlayer}{Layer}}\ *current\_layer;}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{structshape}{Shape}}\ *current\_shape;}
+\DoxyCodeLine{00019\ \};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structpixel__tracer}{pixel\_tracer}}\ \mbox{\hyperlink{structpixel__tracer}{Pixel\_tracer\_app}};}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00028\ \textcolor{keywordtype}{void}\ init\_app(\mbox{\hyperlink{structpixel__tracer}{Pixel\_tracer\_app}}\ *\ app);}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{keywordtype}{void}\ destry\_app(\mbox{\hyperlink{structpixel__tracer}{Pixel\_tracer\_app}}\ *\ app);}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
