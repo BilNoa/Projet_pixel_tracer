@@ -1,0 +1,5 @@
+<map id="create_empty_shape" name="create_empty_shape">
+<area shape="rect" id="Node000001" title="Alloue un Shape avec id, type et valeurs par défaut. ptrShape = NULL." alt="" coords="5,5,164,31"/>
+<area shape="rect" id="Node000002" href="$id_8c.html#a0460b32f6c689432d3be850613333aab" title="Retourne le prochain identifiant unique global (auto&#45;incrémenté)." alt="" coords="212,5,311,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,15,198,15,198,21,164,21"/>
+</map>

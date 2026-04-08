@@ -1,0 +1,50 @@
+<map id="lst_insert_tail" name="lst_insert_tail">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1097,180,1208,205"/>
+<area shape="rect" id="Node000002" href="$area_8c.html#a83dc095cf944e02fad182ff383880d2f" title=" " alt="" coords="909,5,1038,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1138,169,1104,106,1078,73,1048,44,1028,33,1030,28,1051,40,1082,69,1108,103,1143,166"/>
+<area shape="rect" id="Node000006" href="$layers_8c.html#ab59217268dcc283a4942f7e3ed56e3c8" title=" " alt="" coords="907,55,1040,80"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1131,171,1095,131,1048,94,1024,82,1027,78,1051,89,1099,127,1135,167"/>
+<area shape="rect" id="Node000007" href="$layers_8c.html#a047dc1f75af9fbeee695b1dca8878c5e" title=" " alt="" coords="897,104,1049,129"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="1108,177,1048,151,1003,132,1006,127,1050,146,1110,172"/>
+<area shape="rect" id="Node000008" href="$pixel_8c.html#ada24bb1dd5c74df0c61ffd451a603da6" title="Trace un segment par l&#39;algorithme de Bresenham." alt="" coords="914,255,1033,280"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="1116,214,1050,244,1016,257,1014,252,1048,240,1113,209"/>
+<area shape="rect" id="Node000016" href="$list_8c.html#a5aa1ad2575a4ea67d7128ee2a294d98f" title=" " alt="" coords="914,353,1033,379"/>
+<area shape="poly" id="edge23_Node000001_Node000016" title=" " alt="" coords="1143,219,1108,282,1082,315,1051,344,1030,356,1028,351,1048,340,1078,312,1103,279,1138,217"/>
+<area shape="rect" id="Node000017" href="$pixel_8c.html#a87abc331cfb87a9a9a56f1db0c1ca587" title="Trace un cercle par l&#39;algorithme du point médian (Bresenham cercle)." alt="" coords="720,104,819,129"/>
+<area shape="poly" id="edge24_Node000001_Node000017" title=" " alt="" coords="1084,182,819,129,820,124,1085,177"/>
+<area shape="rect" id="Node000018" href="$pixel_8c.html#a1a17e77b9983a5d25c11f697bb1f6147" title="Trace une courbe de Bézier cubique par l&#39;algorithme de Casteljau." alt="" coords="925,205,1021,231"/>
+<area shape="poly" id="edge26_Node000001_Node000018" title=" " alt="" coords="1084,205,1022,214,1021,209,1083,200"/>
+<area shape="rect" id="Node000019" href="$pixel_8c.html#ac5fdff7e509d6ede5e290a32044d4ae9" title=" " alt="" coords="927,304,1020,329"/>
+<area shape="poly" id="edge28_Node000001_Node000019" title=" " alt="" coords="1135,218,1098,256,1051,294,1021,307,1019,302,1048,289,1095,252,1131,214"/>
+<area shape="rect" id="Node000003" href="$pixel__tracer_8c.html#ab0438ce252e17dfe737ec2c4715e4dea" title="Initialise l&#39;application avec une area (80x40) et un layer par défaut." alt="" coords="732,5,807,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="895,21,807,21,807,15,895,15"/>
+<area shape="rect" id="Node000005" href="$command_8c.html#ab576f5b835e80a0ef9ba46654a6295cb" title="Lit une commande sur stdin, l&#39;exécute et retourne un code d&#39;erreur." alt="" coords="689,55,849,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="908,36,823,57,822,52,906,31"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée. Boucle principale de l&#39;application." alt="" coords="5,56,60,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="718,20,608,20,457,23,283,33,108,53,61,63,60,58,108,47,283,28,457,18,608,14,718,14"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="675,70,60,71,60,66,675,65"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="906,54,806,30,808,24,907,49"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="893,70,849,70,849,65,893,65"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="906,103,822,83,823,77,908,98"/>
+<area shape="rect" id="Node000009" href="$pixel_8c.html#a49e9a749297e1988b199d7fb75c7f7cd" title=" " alt="" coords="727,304,811,329"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="908,286,812,309,811,304,906,281"/>
+<area shape="rect" id="Node000013" href="$pixel_8c.html#a5667750b581fe21ec08d266b521b98f4" title=" " alt="" coords="713,353,825,379"/>
+<area shape="poly" id="edge17_Node000008_Node000013" title=" " alt="" coords="910,288,899,294,884,306,876,318,866,331,851,344,827,356,824,351,848,340,862,328,871,315,881,302,896,289,907,283"/>
+<area shape="rect" id="Node000014" href="$pixel_8c.html#a4be84707cddae4c88c715fc31a89db84" title=" " alt="" coords="709,205,830,231"/>
+<area shape="poly" id="edge19_Node000008_Node000014" title=" " alt="" coords="906,254,822,233,823,228,908,249"/>
+<area shape="rect" id="Node000015" href="$pixel_8c.html#a33ac3154a410a7daf32aa794ed4c000a" title=" " alt="" coords="717,255,821,280"/>
+<area shape="poly" id="edge21_Node000008_Node000015" title=" " alt="" coords="900,270,822,270,822,265,900,265"/>
+<area shape="rect" id="Node000010" href="$pixel_8c.html#af2b24bb22e3d5a45d19efc4c547034e8" title="Convertit une Shape en liste de Pixel prêts à être placés dans la grille." alt="" coords="475,236,641,261"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="714,302,689,294,597,264,599,259,690,289,716,297"/>
+<area shape="rect" id="Node000011" href="$render_8c.html#abd298d7e1cef8783b3407d92e31d6e79" title="Convertit les shapes d&#39;un layer en pixels et les écrit dans la grille." alt="" coords="280,217,427,243"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="461,242,427,239,427,234,461,237"/>
+<area shape="rect" id="Node000012" href="$render_8c.html#a806efbe893839426da6aab797dcdb568" title="Remet la grille à zéro puis dessine tous les layers visibles." alt="" coords="108,144,232,169"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="307,215,202,172,204,167,309,210"/>
+<area shape="poly" id="edge16_Node000012_Node000004" title=" " alt="" coords="136,138,52,84,55,79,139,134"/>
+<area shape="poly" id="edge18_Node000013_Node000010" title=" " alt="" coords="704,351,688,344,622,303,572,264,576,260,625,299,691,340,706,346"/>
+<area shape="poly" id="edge20_Node000014_Node000010" title=" " alt="" coords="695,231,642,239,641,234,694,226"/>
+<area shape="poly" id="edge22_Node000015_Node000010" title=" " alt="" coords="703,264,641,259,642,253,703,259"/>
+<area shape="poly" id="edge25_Node000017_Node000010" title=" " alt="" coords="719,137,691,151,624,197,575,238,572,234,621,192,688,146,717,132"/>
+<area shape="poly" id="edge27_Node000018_Node000010" title=" " alt="" coords="911,205,863,196,807,190,748,189,690,195,631,215,583,238,580,233,629,210,689,190,748,183,808,184,864,191,912,200"/>
+<area shape="poly" id="edge29_Node000019_Node000010" title=" " alt="" coords="915,336,899,344,885,357,876,370,867,383,851,394,806,410,769,415,732,410,688,394,645,366,609,329,581,292,564,263,568,260,586,289,613,325,648,362,691,389,733,405,769,410,805,404,848,389,863,379,872,367,881,353,896,340,913,331"/>
+</map>

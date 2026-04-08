@@ -1,0 +1,10 @@
+<map id="create_area" name="create_area">
+<area shape="rect" id="Node000001" title="Crée une area et alloue sa grille 2D." alt="" coords="316,31,415,56"/>
+<area shape="rect" id="Node000002" href="$pixel__tracer_8c.html#ab0438ce252e17dfe737ec2c4715e4dea" title="Initialise l&#39;application avec une area (80x40) et un layer par défaut." alt="" coords="151,5,225,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="302,37,225,26,226,21,303,32"/>
+<area shape="rect" id="Node000004" href="$command_8c.html#ab576f5b835e80a0ef9ba46654a6295cb" title="Lit une commande sur stdin, l&#39;exécute et retourne un code d&#39;erreur." alt="" coords="108,55,268,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="303,54,269,59,268,54,302,49"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée. Boucle principale de l&#39;application." alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,29,61,42,60,36,137,24"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="94,55,60,50,61,45,95,50"/>
+</map>

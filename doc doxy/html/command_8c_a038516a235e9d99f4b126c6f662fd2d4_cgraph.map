@@ -1,0 +1,5 @@
+<map id="clean_text" name="clean_text">
+<area shape="rect" id="Node000001" title="Passe en minuscules et tronque la chaîne au premier &#39;#&#39; ou &#39; &#39;." alt="" coords="5,5,96,31"/>
+<area shape="rect" id="Node000002" href="$command_8c.html#aa14cf721a9645a14868ee70af7c2b274" title="Met la chaîne en minuscules (remplacement de strlwr non&#45;portable)." alt="" coords="144,5,211,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,15,130,15,130,21,96,21"/>
+</map>

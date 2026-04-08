@@ -1,0 +1,7 @@
+<map id="create_area_list" name="create_area_list">
+<area shape="rect" id="Node000001" title=" " alt="" coords="231,5,357,31"/>
+<area shape="rect" id="Node000002" href="$pixel__tracer_8c.html#ab0438ce252e17dfe737ec2c4715e4dea" title="Initialise l&#39;application avec une area (80x40) et un layer par défaut." alt="" coords="108,5,183,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,21,183,21,183,15,217,15"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée. Boucle principale de l&#39;application." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

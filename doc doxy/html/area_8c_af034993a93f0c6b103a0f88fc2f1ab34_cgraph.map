@@ -1,0 +1,9 @@
+<map id="create_area" name="create_area">
+<area shape="rect" id="Node000001" title="Crée une area et alloue sa grille 2D." alt="" coords="5,31,104,56"/>
+<area shape="rect" id="Node000002" href="$structarea.html#ae91b06b396885143d0a414054321ac77" title=" " alt="" coords="177,5,265,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,33,163,24,163,29,105,39"/>
+<area shape="rect" id="Node000003" href="$layers_8c.html#a81a30ec832bc7c40ae8f8c7aa452e145" title=" " alt="" coords="152,55,289,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="105,48,138,53,138,58,104,53"/>
+<area shape="rect" id="Node000004" href="$list_8c.html#afec467a8af7733df57ff079150c68032" title=" " alt="" coords="337,55,451,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="289,65,324,65,324,70,289,70"/>
+</map>

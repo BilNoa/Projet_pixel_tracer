@@ -1,0 +1,22 @@
+<map id="draw_segment" name="draw_segment">
+<area shape="rect" id="Node000001" title="Trace un segment par l&#39;algorithme de Bresenham." alt="" coords="859,80,977,105"/>
+<area shape="rect" id="Node000002" href="$pixel_8c.html#a49e9a749297e1988b199d7fb75c7f7cd" title=" " alt="" coords="708,5,792,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="878,76,810,44,783,33,785,28,812,40,880,71"/>
+<area shape="rect" id="Node000007" href="$pixel_8c.html#a5667750b581fe21ec08d266b521b98f4" title=" " alt="" coords="694,55,806,80"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="845,84,806,78,807,73,845,79"/>
+<area shape="rect" id="Node000008" href="$pixel_8c.html#a4be84707cddae4c88c715fc31a89db84" title=" " alt="" coords="689,104,811,129"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="845,106,811,111,810,105,845,100"/>
+<area shape="rect" id="Node000009" href="$pixel_8c.html#a33ac3154a410a7daf32aa794ed4c000a" title=" " alt="" coords="698,153,802,179"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="878,114,812,143,783,156,781,151,810,138,875,109"/>
+<area shape="rect" id="Node000003" href="$pixel_8c.html#af2b24bb22e3d5a45d19efc4c547034e8" title="Convertit une Shape en liste de Pixel prêts à être placés dans la grille." alt="" coords="475,80,641,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="705,38,592,82,590,78,703,33"/>
+<area shape="rect" id="Node000004" href="$render_8c.html#abd298d7e1cef8783b3407d92e31d6e79" title="Convertit les shapes d&#39;un layer en pixels et les écrit dans la grille." alt="" coords="280,80,427,105"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="461,95,427,95,427,90,461,90"/>
+<area shape="rect" id="Node000005" href="$render_8c.html#a806efbe893839426da6aab797dcdb568" title="Remet la grille à zéro puis dessine tous les layers visibles." alt="" coords="108,80,232,105"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="266,95,232,95,232,90,266,90"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée. Boucle principale de l&#39;application." alt="" coords="5,80,60,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,95,60,95,60,90,94,90"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="681,79,642,84,641,79,680,74"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="675,110,641,106,642,100,676,105"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="702,151,592,108,594,103,704,146"/>
+</map>

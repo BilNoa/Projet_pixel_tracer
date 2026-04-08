@@ -1,0 +1,5 @@
+<map id="line" name="line">
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,108,56,133"/>
+<area shape="rect" id="Node000002" href="$structpoint.html" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,45,35,108,30,108,30,45"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="get_next_node" name="get_next_node">
+<area shape="rect" id="Node000001" title=" " alt="" coords="511,23,629,49"/>
+<area shape="rect" id="Node000002" href="$render_8c.html#a806efbe893839426da6aab797dcdb568" title="Remet la grille à zéro puis dessine tous les layers visibles." alt="" coords="126,23,250,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="512,23,462,13,389,8,316,13,241,26,240,21,316,8,389,3,463,8,513,18"/>
+<area shape="rect" id="Node000004" href="$render_8c.html#abd298d7e1cef8783b3407d92e31d6e79" title="Convertit les shapes d&#39;un layer en pixels et les écrit dans la grille." alt="" coords="316,23,463,49"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="497,39,463,39,463,33,497,33"/>
+<area shape="rect" id="Node000005" href="$command_8c.html#ab576f5b835e80a0ef9ba46654a6295cb" title="Lit une commande sur stdin, l&#39;exécute et retourne un code d&#39;erreur." alt="" coords="108,73,268,98"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="506,54,463,63,362,76,268,84,268,78,361,70,462,57,505,49"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée. Boucle principale de l&#39;application." alt="" coords="5,49,60,74"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,51,61,60,60,54,112,46"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="302,39,250,39,250,33,302,33"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="94,74,60,68,61,63,95,68"/>
+</map>

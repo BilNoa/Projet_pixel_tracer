@@ -1,0 +1,27 @@
+<map id="sprint_point" name="sprint_point">
+<area shape="rect" id="Node000001" title=" " alt="" coords="644,156,743,181"/>
+<area shape="rect" id="Node000002" href="$shape_8c.html#a068a5bc38689a7b8fae84ef6a3dc0f47" title=" " alt="" coords="480,5,585,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="675,146,641,100,594,52,564,33,567,29,598,48,645,96,679,143"/>
+<area shape="rect" id="Node000003" href="$shape_8c.html#a5167551a1a804f8b67d74ed0ce9b738d" title="Écrit les paramètres de la forme dans str (pour affichage)." alt="" coords="316,156,421,181"/>
+<area shape="poly" id="edge13_Node000001_Node000003" title=" " alt="" coords="669,148,637,119,595,96,561,86,533,83,505,87,470,96,444,109,420,125,384,157,380,154,417,120,441,104,468,92,504,81,533,78,562,81,597,92,640,115,673,144"/>
+<area shape="rect" id="Node000006" href="$shape_8c.html#a575942d1117aebe05159a42d4aacda53" title=" " alt="" coords="481,107,584,132"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="637,154,574,135,576,130,639,149"/>
+<area shape="rect" id="Node000007" href="$shape_8c.html#a26f431cb3f02d6b1a9967dc64591b1db" title=" " alt="" coords="487,156,578,181"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="630,171,578,171,578,166,630,166"/>
+<area shape="rect" id="Node000008" href="$shape_8c.html#a71e3c87d1041b6439c310bb63e810f3d" title=" " alt="" coords="473,205,592,231"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="639,188,576,208,574,203,637,183"/>
+<area shape="rect" id="Node000009" href="$shape_8c.html#a9be86d5bc934d6905c849b96f71ccc14" title=" " alt="" coords="469,255,596,280"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="669,192,636,219,597,244,571,257,569,252,595,240,633,214,666,188"/>
+<area shape="rect" id="Node000010" href="$shape_8c.html#a3571899d19b29d8571e6c090065121f3" title=" " alt="" coords="481,304,584,329"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="680,195,647,244,624,270,598,293,576,306,573,301,594,289,620,266,642,241,676,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="490,39,471,52,442,79,417,108,380,157,376,154,412,104,438,75,468,48,487,35"/>
+<area shape="rect" id="Node000004" href="$command_8c.html#ab576f5b835e80a0ef9ba46654a6295cb" title="Lit une commande sur stdin, l&#39;exécute et retourne un code d&#39;erreur." alt="" coords="108,156,268,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="302,171,268,171,268,166,302,166"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée. Boucle principale de l&#39;application." alt="" coords="5,156,60,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,171,60,171,60,166,94,166"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="478,139,413,158,411,153,476,133"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="473,171,421,171,421,166,473,166"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="476,204,411,184,413,179,478,199"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="482,251,468,244,420,213,383,183,386,179,424,209,471,240,484,247"/>
+<area shape="poly" id="edge15_Node000010_Node000003" title=" " alt="" coords="478,300,468,293,437,266,411,235,375,183,380,180,415,232,441,262,471,289,481,296"/>
+</map>

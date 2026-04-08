@@ -1,0 +1,21 @@
+<map id="src/pixel.h" name="src/pixel.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="151,5,239,31"/>
+<area shape="rect" id="Node000002" href="$pixel_8c.html" title=" " alt="" coords="71,79,157,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,42,129,80,126,76,170,38"/>
+<area shape="rect" id="Node000003" href="$pixel__tracer_8h.html" title=" " alt="" coords="129,152,261,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,45,198,152,193,152,193,45"/>
+<area shape="rect" id="Node000008" href="$render_8h.html" title=" " alt="" coords="233,79,331,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="221,37,270,76,266,81,218,41"/>
+<area shape="rect" id="Node000004" href="$command_8h.html" title=" " alt="" coords="35,225,158,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="170,187,114,227,111,223,167,183"/>
+<area shape="rect" id="Node000006" href="$main_8c.html" title=" " alt="" coords="151,299,240,324"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="198,191,198,298,193,298,193,191"/>
+<area shape="rect" id="Node000007" href="$pixel__tracer_8c.html" title=" " alt="" coords="233,225,363,251"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="225,183,283,223,280,227,222,187"/>
+<area shape="rect" id="Node000005" href="$command_8c.html" title=" " alt="" coords="5,299,127,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="89,264,73,300,69,297,84,262"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="125,256,181,296,178,301,122,261"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="259,115,211,154,208,150,256,110"/>
+<area shape="rect" id="Node000009" href="$render_8c.html" title=" " alt="" coords="285,152,383,177"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="301,114,328,150,323,153,296,117"/>
+</map>

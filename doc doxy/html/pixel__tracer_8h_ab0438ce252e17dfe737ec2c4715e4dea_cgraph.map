@@ -1,0 +1,30 @@
+<map id="init_app" name="init_app">
+<area shape="rect" id="Node000001" title="Initialise l&#39;application avec une area (80x40) et un layer par défaut." alt="" coords="5,155,80,180"/>
+<area shape="rect" id="Node000002" href="$area_8c.html#a83dc095cf944e02fad182ff383880d2f" title=" " alt="" coords="130,55,259,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,153,85,121,127,89,138,83,140,88,129,94,88,125,57,156"/>
+<area shape="rect" id="Node000005" href="$layers_8c.html#ab59217268dcc283a4942f7e3ed56e3c8" title=" " alt="" coords="128,5,261,31"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="47,153,76,99,98,68,126,40,133,35,136,39,130,44,102,71,80,102,52,156"/>
+<area shape="rect" id="Node000006" href="$area_8c.html#af034993a93f0c6b103a0f88fc2f1ab34" title="Crée une area et alloue sa grille 2D." alt="" coords="145,104,244,129"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="79,153,142,131,144,136,81,158"/>
+<area shape="rect" id="Node000008" href="$layers_8c.html#a81a30ec832bc7c40ae8f8c7aa452e145" title=" " alt="" coords="309,155,447,180"/>
+<area shape="poly" id="edge15_Node000001_Node000008" title=" " alt="" coords="80,165,295,165,295,170,80,170"/>
+<area shape="rect" id="Node000010" href="$area_8c.html#ab5f9940349ea7e9717c769a1f6da0c04" title=" " alt="" coords="315,205,441,231"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="81,170,302,204,301,209,80,175"/>
+<area shape="rect" id="Node000011" href="$layers_8c.html#a853dcca01b74d5b771a3c92c67f16a04" title="lors de la création il faut mettre visible 1" alt="" coords="143,256,246,281"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="59,178,90,205,129,234,152,247,150,252,127,239,87,210,56,182"/>
+<area shape="rect" id="Node000012" href="$id_8c.html#a0460b32f6c689432d3be850613333aab" title="Retourne le prochain identifiant unique global (auto&#45;incrémenté)." alt="" coords="145,305,244,331"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="52,179,80,233,102,265,130,292,136,297,133,301,126,296,98,268,75,236,47,181"/>
+<area shape="rect" id="Node000003" href="$list_8c.html#ae601318c758e55737363c7445bcb1b8f" title=" " alt="" coords="313,5,443,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,52,316,32,317,37,243,57"/>
+<area shape="rect" id="Node000004" href="$list_8c.html#a8f0a81e76357062b9b85825cd0bf7669" title=" " alt="" coords="323,55,433,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="260,65,309,65,309,70,260,70"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="262,15,300,15,300,21,262,21"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="243,28,317,48,316,54,242,33"/>
+<area shape="rect" id="Node000007" href="$structarea.html#ae91b06b396885143d0a414054321ac77" title=" " alt="" coords="334,104,422,129"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="244,114,320,114,320,119,244,119"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="242,127,319,148,317,153,241,132"/>
+<area shape="rect" id="Node000009" href="$list_8c.html#afec467a8af7733df57ff079150c68032" title=" " alt="" coords="495,205,608,231"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="423,178,494,199,493,204,422,183"/>
+<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="441,215,481,215,481,221,441,221"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="246,262,339,254,446,239,487,231,488,236,447,245,340,259,246,268"/>
+</map>

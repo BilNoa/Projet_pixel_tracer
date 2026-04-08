@@ -1,0 +1,11 @@
+<map id="lst_delete_list" name="lst_delete_list">
+<area shape="rect" id="Node000001" title=" " alt="" coords="436,31,549,56"/>
+<area shape="rect" id="Node000002" href="$area_8c.html#a90d22265cf606b715a58b96cf33ac782" title=" " alt="" coords="256,5,383,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="422,36,383,30,383,25,423,30"/>
+<area shape="rect" id="Node000005" href="$layers_8c.html#acc379be8abba3e431a40369dbdeed98d" title=" " alt="" coords="251,55,388,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="423,56,389,60,388,55,422,50"/>
+<area shape="rect" id="Node000003" href="$pixel__tracer_8c.html#ae6a262210e7d36160929f102eb606d50" title="Libère toutes les ressources de l&#39;application." alt="" coords="108,5,203,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,21,203,21,203,15,242,15"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée. Boucle principale de l&#39;application." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,21,60,21,60,15,95,15"/>
+</map>

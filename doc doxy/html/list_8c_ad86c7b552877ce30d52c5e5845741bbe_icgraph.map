@@ -1,0 +1,15 @@
+<map id="lst_erase" name="lst_erase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="597,31,679,56"/>
+<area shape="rect" id="Node000002" href="$layers_8c.html#ab3ed3647c3307a0911045c2afc1c36ab" title="Libère les shapes du layer puis le layer lui&#45;même." alt="" coords="441,5,544,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="583,37,544,30,545,24,584,31"/>
+<area shape="rect" id="Node000003" href="$list_8c.html#afc417a1f2ab316e3c96c35bad7471533" title=" " alt="" coords="436,55,549,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="585,55,550,61,549,55,584,50"/>
+<area shape="rect" id="Node000004" href="$area_8c.html#a90d22265cf606b715a58b96cf33ac782" title=" " alt="" coords="256,29,383,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="422,60,383,54,383,49,423,54"/>
+<area shape="rect" id="Node000007" href="$layers_8c.html#acc379be8abba3e431a40369dbdeed98d" title=" " alt="" coords="251,79,388,104"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="423,80,389,84,388,79,422,74"/>
+<area shape="rect" id="Node000005" href="$pixel__tracer_8c.html#ae6a262210e7d36160929f102eb606d50" title="Libère toutes les ressources de l&#39;application." alt="" coords="108,29,203,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="242,45,203,45,203,39,242,39"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Point d&#39;entrée. Boucle principale de l&#39;application." alt="" coords="5,29,60,55"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="95,45,60,45,60,39,95,39"/>
+</map>

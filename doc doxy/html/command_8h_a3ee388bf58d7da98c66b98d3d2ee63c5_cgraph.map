@@ -1,0 +1,19 @@
+<map id="read_from_stdin" name="read_from_stdin">
+<area shape="rect" id="Node000001" title="Lit et parse une ligne depuis stdin dans cmd." alt="" coords="5,153,133,179"/>
+<area shape="rect" id="Node000002" href="$command_8c.html#a97d0318f3c3d640783b5c1efa2187e0e" title=" " alt="" coords="181,5,312,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,152,117,98,146,67,180,40,189,34,192,39,183,44,150,71,121,102,81,155"/>
+<area shape="rect" id="Node000003" href="$command_8c.html#aaf5356b7d3e00e352c0e55e07e728ea2" title=" " alt="" coords="187,55,306,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="86,151,127,121,180,89,193,83,195,88,183,94,130,125,89,155"/>
+<area shape="rect" id="Node000004" href="$command_8c.html#adfb1fa24d5d651505e1e71b10344fd03" title=" " alt="" coords="187,104,306,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,151,186,131,187,136,116,156"/>
+<area shape="rect" id="Node000005" href="$command_8c.html#a038516a235e9d99f4b126c6f662fd2d4" title="Passe en minuscules et tronque la chaîne au premier &#39;#&#39; ou &#39; &#39;." alt="" coords="201,153,292,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="134,163,188,163,188,169,134,169"/>
+<area shape="rect" id="Node000007" href="$command_8c.html#ae408946e5cb86d54f1c5ef67df3a3d92" title=" " alt="" coords="212,203,281,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="116,176,199,200,198,205,115,181"/>
+<area shape="rect" id="Node000008" href="$command_8c.html#a05868663acd37e7f059fee90128ebecc" title=" " alt="" coords="218,252,275,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="89,177,131,206,183,237,207,248,204,253,180,242,128,210,86,181"/>
+<area shape="rect" id="Node000009" href="$command_8c.html#a944c5ae6f5e963f5a0f75bf4a43f24b2" title=" " alt="" coords="211,301,283,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="81,177,122,229,150,260,183,286,199,296,197,300,180,291,147,264,118,233,77,181"/>
+<area shape="rect" id="Node000006" href="$command_8c.html#aa14cf721a9645a14868ee70af7c2b274" title="Met la chaîne en minuscules (remplacement de strlwr non&#45;portable)." alt="" coords="360,153,427,179"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="292,163,346,163,346,169,292,169"/>
+</map>
