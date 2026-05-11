@@ -1,8 +1,10 @@
 Main.class
+area/Area.class
 shape/Square.class
 shape/Circle.class
 shape/Rectangle.class
 shape/Polygone.class
+area/Layer.class
 shape/Point.class
 shape/Cercle.class
 shape/Curve.class

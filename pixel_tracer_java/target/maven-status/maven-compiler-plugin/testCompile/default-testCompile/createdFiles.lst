@@ -6,4 +6,6 @@ shape/CurveTest.class
 shape/LineTest.class
 shape/CircleTest.class
 shape/RectangleTest.class
+area/AreaTest.class
+area/LayerTest.class
 shape/ShapeTest.class
