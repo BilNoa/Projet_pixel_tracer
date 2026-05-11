@@ -1,4 +1,4 @@
-package area;
+package grid;
 
 import shape.Shape;
 import java.util.ArrayList;
