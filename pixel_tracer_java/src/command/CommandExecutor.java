@@ -2,8 +2,8 @@ package command;
 
 import app.IdGenerator;
 import app.PixelTracerApp;
-import area.Area;
-import area.Layer;
+import grid.Area;
+import grid.Layer;
 import shape.*;
 import java.util.ArrayList;
 import java.util.List;

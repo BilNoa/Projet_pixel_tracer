@@ -1,7 +1,7 @@
 package app;
 
-import area.Area;
-import area.Layer;
+import grid.Area;
+import grid.Layer;
 import shape.Shape;
 import java.util.ArrayList;
 

@@ -1,8 +1,6 @@
-area/Area.class
 shape/Circle.class
 shape/Rectangle.class
 shape/Point.class
-area/Layer.class
 app/IdGenerator.class
 shape/Shape.class
 Main.class
